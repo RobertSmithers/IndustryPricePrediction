@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from pandas.plotting import scatter_matrix
 import yfinance as yf
-import talib
 #import talib
 #%matplotlib inline
 
