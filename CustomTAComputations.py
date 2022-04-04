@@ -186,9 +186,9 @@ ax2 = plt.subplot2grid((3, 3), (1, 0), colspan = 3)
 ax3 = plt.subplot2grid((3, 3), (2, 0), colspan = 3)
 
 ax1.set_title('Close Stock Prices of S&P 500, 2/19/2017 - 2/18/2022')
-ax1.plot(sp500['Close'], linewidth = 1.5, label = "Close Price")
-ax1.plot(sp500['MA50'], linewidth = 1, label = "Moving Average 50 Days")
-ax1.plot(sp500['MA200'], linewidth = 1, label = "Moving Average 200 Days")
+ax1.plot(xly_frame['close'], linewidth = 1.5, label = "Close Price")
+ax1.plot(xly_frame['MA50'], linewidth = 1, label = "Moving Average 50 Days")
+ax1.plot(xly_frame['MA200'], linewidth = 1, label = "Moving Average 200 Days")
 ax1.legend()
 #X1 = ax1.xaxis
 #X1.set_major_locator(locator)
