@@ -18,6 +18,12 @@ def get_ticker_dict(t):
     for desc, tkr, _ in t:
         dic[tkr] = desc
     return dic
+
+def get_desc_dict(t):
+    dic = {}
+    for desc, tkr, _ in t:
+        dic[desc] = tkr
+    return dic
     
 sectors = [('Communication Services', 'XLC', '81369Y85'), ('Consumer Discretionary', 'XLY', '81369Y40'), ('Consumer Staples', 'XLP', '81369Y30'),
            ('Energy', 'XLE', '81369Y50'), ('Financials', 'XLF', '81369Y60'), ('Health Care', 'XLV', '81369Y20'), ('Industrials', 'XLI', '81369Y70'),
